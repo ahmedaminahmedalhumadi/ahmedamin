@@ -1,0 +1,144 @@
+* {margin: 0px;padding: 0px;}
+
+/* Header */
+
+
+.navigasi {
+	height: 70px;
+	background-color: darkred;
+	line-height: 70px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigasi ul li a { text-decoration: none; color: white;}
+.navigasi ul li {
+	display: inline-block;
+	font-size: 27px;
+	font-family: sans-serif;
+	color: white;
+	line-height: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+
+}
+
+/* End Header */
+
+/* Content */
+.one {
+    background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2016/howcuttingdo.jpg);
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+.greet h2 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+.ticket h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 95px;
+}
+
+.foreword h2 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 70px;
+}
+
+.contact-us a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin-left: 640px;
+    padding: 10px 40px;
+    font-size: 25px;
+    border-radius: 30px;
+}
+.contact-us :hover{
+    background-color:  darkred;
+    padding: 10px 40px;
+    color: black;
+    box-shadow: 0px 1px 18px white
+}
+/* End Content */
+
+/* Footer */
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkred;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+footer h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+/* End Footer */
+
+/* Tablet */
+@media screen and (max-width: 768px){
+    .one .greet h2{
+        margin-left: 220px;
+        font-size: 30px;
+    }
+
+    .ishvara h1{
+        font-size: 70px;
+        margin-left: 110px;
+    }
+
+    .contact-us a{
+        margin-left: 230px;
+    }
+}
+/* End Tablet */
+
+
+/* Handphone */
+@media screen and (max-width: 576px){
+    ul li{
+        padding: 25px 10px;
+    }
+
+    .menu ul li a{
+        padding: 10px 15px;
+    }
+
+    header .logo{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .one .greet h2{
+        margin-left: 180px;
+        font-size: 20px;
+    }
+
+    .one .greet h1{
+        font-size: 50px;
+        margin-left: 90px;
+    }
+
+    .foreword p{
+        font-size: 17px;
+    }
+    
+    .contact-us a{
+        font-size: 20px;
+        margin-left: 150px;
+    }
+}
+/* End Handphone */
